@@ -1,0 +1,52 @@
+.cart {
+    width: 100%;
+    background-color: rgb(2, 80, 72);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.products {
+    width: 22%;
+    height: 350px;
+    text-align: center;
+    background-color: white;
+    color: rgb(2, 80, 72);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.products img {
+    width: 250px;
+    height: 250px;
+}
+
+.quantityBtn {
+    padding: 5px 8px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    background-color: rgb(2, 80, 72);
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.deleteBtn {
+    padding: 2px 15px;
+    margin: 0 5px;
+    color: #fff;
+    background-color: #ff0000;
+    cursor: pointer;
+    border: none;
+}
+
+.total-amount{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: rgb(2, 80, 72);
+    color: #fff;
+}

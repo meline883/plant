@@ -1,0 +1,28 @@
+.menu {
+    height: 100px;
+    background-color: rgb(2, 80, 72);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+.nav {
+    width: 30%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.page{
+    font-size: 30px;
+}

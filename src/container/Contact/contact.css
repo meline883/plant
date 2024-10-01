@@ -1,0 +1,21 @@
+.contact {
+    height: 600px;
+    background-color: rgb(2, 80,72);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+     .contact div{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    form input{
+        width: 75%;
+        padding: 15px 20px;
+        box-sizing: border-box;
+    } 
